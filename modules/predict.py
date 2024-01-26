@@ -4,7 +4,7 @@ import pandas as pd
 import json
 
 
-path = os.path.expanduser('~/airflow_hw')
+path = os.environ.get('PROJECT_PATH', '.')
 
 
 model_path = path + '/data/models/cars_pipe.pkl'
