@@ -7,7 +7,7 @@ import json
 path = os.path.expanduser('~/airflow_hw')
 
 
-model_path = path + '/data/models/cars_pipe_202401192000.pkl'
+model_path = path + '/data/models/cars_pipe.pkl'
 with open(model_path, 'rb') as file:
     model = dill.load(file)
 

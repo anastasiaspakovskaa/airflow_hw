@@ -121,7 +121,7 @@ def pipeline() -> None:
     logging.info(f'best model: {type(best_pipe.named_steps["classifier"]).__name__}, accuracy: {best_score:.4f}')
 
     best_pipe.fit(X, y)
-    model_filename = f'{path}/data/models/cars_pipe_{datetime.now().strftime("%Y%m%d%H%M")}.pkl'
+    model_filename = f'{path}/data/models/cars_pipe.pkl'
 
     with open(model_filename, 'wb') as file:
         dill.dump(best_pipe, file)
