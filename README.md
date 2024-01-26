@@ -29,7 +29,7 @@ It contains next columns:
 # Usage
 1. Clone the repository:
 
-`git clone https://github.com/anastasiaspakovskaa/car_price_prediction/tree/master`
+`git clone https://github.com/anastasiaspakovskaa/car_price_prediction`
 
 2. Open the project in your IDE.
 3. Run 'modules/pipeline.py' to train the best model, and save it in the 'data/models' 
