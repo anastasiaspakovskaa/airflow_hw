@@ -38,5 +38,4 @@ directory.
 directory.
 5. The files to predict are stored in the 'data/test' directory, which contains JSON files.
 You can modify these files to obtain different predictions.
-
-
+6. If everything works, you can run this program using Apache Airflow. The 'dags' directory contains the 'dag_hw.py' file. Instructions on how to run Airflow can be found [here](https://airflow.apache.org/docs/apache-airflow/stable/tutorial/pipeline.html).
